@@ -5164,7 +5164,7 @@ a img {
     margin: auto;
     display: grid;
     grid-template-rows: repeat(2, 60%);
-    grid-template-columns: repeat(2, 30%);
+    grid-template-columns: repeat(3, 30%);
     gap: 15px;
     justify-content: space-around;
     /* padding-top: 20px; */
