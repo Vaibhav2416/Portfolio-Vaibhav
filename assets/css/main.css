@@ -16,6 +16,9 @@ body {
     color: #555;
     font-family: 'Nunito Sans', sans-serif
 }
+:root {
+    --main-color: #033a80;
+}
 
 article,
 aside,
@@ -5113,7 +5116,7 @@ a img {
     background: linear-gradient(to right, #2B32B2, #1488CC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
     color: #fff;
     display: flex;
@@ -5183,3 +5186,65 @@ a img {
     background-color: white;
     border-radius: 20px;
 }
+
+.skills-container {
+    width: 60%;
+    margin: auto;
+    height: 560px;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .skills-img img {
+    width: 100%;
+    object-position: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 20px;
+  }
+  .bars-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+  }
+  .bars-box h3,
+  span {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .light-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background: hsla(260, 100%, 44%, 0.4);
+    border-radius: 0.5rem;
+  }
+  .percent-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.5rem;
+    background: var(--main-color);
+    border-radius: 0.5rem;
+  }
+  .html-bar {
+    width: 94%;
+  }
+  .css-bar {
+    width: 84%;
+  }
+  .js-bar {
+    width: 74%;
+  }
+  .react-bar {
+    width: 80%;
+  }
