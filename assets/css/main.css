@@ -5248,3 +5248,16 @@ a img {
   .react-bar {
     width: 80%;
   }
+  #imageContainer{
+    width: 60%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .gitClass{
+    width: 100%;
+    height: 80%;
+  }
