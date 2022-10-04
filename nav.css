@@ -58,7 +58,7 @@
 .nav  a:hover {
     color: rgb(255,88,36);
     font-weight: bold;
-    z-index: 2;
+    z-index: 3;
 }
 /* tooltip */
 .tooltip {
