@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-
+*{
+    transition: 1s;
+}
+li:hover{
+    transform: translateY(-1rem);
+}
 
 
 .nav {
